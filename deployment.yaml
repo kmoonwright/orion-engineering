@@ -1,0 +1,22 @@
+- name: my-first-deployment
+  flow_location: first_flow.py
+  flow_name: hello-world
+  tags:
+    - foo
+    - bar
+  parameters:
+    name: "YAML"
+  schedule:
+    interval: 3600
+
+
+- name: my-second-deployment
+  flow_location: first_flow.py
+  flow_name: hello-world
+  tags:
+    - foo
+    - bar
+  parameters:
+    name: "YAML"
+  schedule:
+    interval: 3600
